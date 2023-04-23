@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+    <body style="background-color: darkviolet;">
+        <center>
+            <strong><h1 style="color:black">Registration Form</h1></strong>
+            <p style="font:italic;color:rgb(6, 44, 1)">Please fill out this form with the required information</p>
+            <div style="background-color:rgb(222, 60, 87); width:625px;">
+            <form>
+                <table  cellspacing="25">
+                    <tr>
+                        <td><label>ID:</label></td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>First Name:</label></td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Last Name:</label></td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Course:</label></td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Branch:</label></td>
+                        <td><input type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Email:</label></td>
+                        <td><input type="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password:</label></td>
+                        <td><input type="password" pattern="[a-z0-5]{8,}" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>Confirm Password:</label></td>
+                        <td><input type="password" pattern="[a-z0-5]{8,}" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="gen">Gender:</label></td>
+                        <td><input type="radio" name="gen"><label>Male</label>&nbsp;
+                            <input type="radio" name="gen"><label>Female</label>&nbsp;
+                            <input type="radio" name="gen"><label>Others</label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="referrer">Religion:</label></td>
+                        <td><label><select id="referrer" name="referrer">
+                            <option value="">(select one)</option>
+                            <option value="1">Hindu</option>
+                            <option value="2">Muslim</option>
+                            <option value="3">Christian</option>
+                            <option value="4">Other</option>
+                          </select></label></td>
+                    </tr>
+                    <tr>
+                        <td><label>Languages:</label></td>
+                        <td><input type="checkbox"><label>English</label>
+                            <input type="checkbox"><label>Hindi</label>
+                            <input type="checkbox"><label>Telugu</label>
+                            <input type="checkbox"><label>Others</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label>Address:</label></td>
+                        <td><textarea name="address" rows="5" cols="30" placeholder="Type Here...."></textarea></td>
+                    </tr>
+                </table>
+                        <input type="checkbox"><label>I accept to the terms and conditions</label><br>
+                        <br>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+            </form>
+            </div>
+        </center>
+    </body>
+
+</html>

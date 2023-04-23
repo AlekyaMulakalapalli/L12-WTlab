@@ -1,0 +1,30 @@
+body{
+background-color: #1b1b32;
+font-family: Tahoma;
+color:white;
+}
+input,textarea{
+    background-color: #0a0a23;
+    border:#0a0a23;
+    color:white;
+}
+input[type="submit"] {
+    display: inline;
+    width: 5%;
+    margin: 1.8em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 100px;
+}
+input[type="reset"] {
+    display: inline;
+    width: 5%;
+    margin: 1.5em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 100px;
+}
